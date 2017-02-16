@@ -37,7 +37,8 @@ public class SliderShower {
     }
 
     public DoubleProperty getSliderValueProp() {
-        return sliderValueProp;
+        return sliderValueProp; // This does not work
+//        return controller.getSliderValueProp(); // This would work
     }
 
     public void show() {

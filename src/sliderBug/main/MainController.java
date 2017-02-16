@@ -11,10 +11,6 @@ public class MainController {
     @FXML
     private Label label;
 
-    public StringProperty getLabelTextProp() {
-        return label.textProperty();
-    }
-
     public void setText(String text) {
         label.setText(text);
     }
